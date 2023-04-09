@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initialscale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="img/logo.png">  
+     <title>Healty Website</title>
+     <!-- Bootstrap core CSS -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="webcss.css">
+</head>
+<body>
+<!-- bagian nav -->
+  <nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+<!-- bagian dropdown -->
+    <ul class="menu">
+      <li><a href="#home"><span>HOME</span></a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"><span>Artikel & Video</span></a>
+        <div class="dropdown-content">
+          <a href="makananSehat.html">Makanan Sehat</a>
+          <a href="olahraga.html">Olahraga</a>
+          <a href="kecantikan.html">Kecantikan</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"><span>TIPS</span></a>
+        <div class="dropdown-content">
+          <a href="hidupSehat.html">Hidup Sehat</a>
+          <a href="badanIdeal.html">Turunkan Berat Badan</a>
+          <a href="mengatasiStres.html">Mengatasi Stres</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"><span>AKUN</span></a>
+        <div class="dropdown-content">
+          <a href="login.html">LOGIN</a>
+          <a href="login.html">LOGOUT</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+<!-- home -->
+  <div class="home">
+    <div class="container">
+      <h1><i>Welcome to Website Healty.Me</i></h1>
+      <div class='slide'>
+        <input type='radio' name='radio-set' checked='checked' />
+        <img src='img/home1.jpg'/>
+        <input type='radio' name='radio-set' />
+        <img src='img/dokter.jpg'/>
+        <input type='radio' name='radio-set' />
+        <img src='img/orhome2.jpg'/>
+        <input type='radio' name='radio-set' />
+        <img src='img/logo3.jpg'/>
+      </div>
+    </div>
+  </div>
+          <!--Waves Container-->
+    <div>
+      <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="white" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
+       <!--footer--> 
+    <footer>
+      <div class="footer">
+        <p class="text-center"><b>&copy; Healty.Me 2023</b></span></p>
+      </div>
+    </footer>
+     <script src="wavesurfer.min.js"></script>
+     <script src="css/bootstrap.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/jquery-3.6.3.js"></script>
+</body>
+</html>
